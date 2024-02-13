@@ -49,7 +49,7 @@ class Restaurant:
             employee.receive_salary()
 
     def show_employees(self):
-        print(f'-----------SHOWING EMPLOYEES--------')
+        print('-----------SHOWING EMPLOYEES--------')
         if self.chef is not None:
             print(f'Chef: {self.chef.name} with salary: {self.chef.salary}')
         if self.server is not None:

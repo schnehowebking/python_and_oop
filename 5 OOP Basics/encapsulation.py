@@ -17,7 +17,7 @@ class Bank:
             self.__balance = self.__balance - amount
             return amount
         else:
-            return f'Forkia taka nai'
+            return 'Forkia taka nai'
 
 rafsun = Bank('Choooto bro', 10000)
 

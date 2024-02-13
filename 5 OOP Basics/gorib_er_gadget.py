@@ -9,7 +9,7 @@ class Laptop:
         return f'Running laptop: {self.brand}'
     
     def coding(self):
-        return f'learning python and practicing'
+        return 'learning python and practicing'
     
 class Phone:
     def __init__(self, brand, price, color, dual_sim) -> None:
@@ -19,7 +19,7 @@ class Phone:
         self.dual_sim = dual_sim
     
     def run(self):
-        return f'phone tipa tipi kore'
+        return 'phone tipa tipi kore'
     
     def phone_call(self, number, text):
         return f'Sending SMS to: {number} with: {text}'

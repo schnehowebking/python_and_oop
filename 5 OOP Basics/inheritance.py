@@ -18,7 +18,7 @@ class Laptop:
         self.ssd = ssd
 
     def coding(self):
-        return f'learning python and practicing'
+        return 'learning python and practicing'
     
 class Phone(Gadget):
     def __init__(self, brand, price, color, origin, dual_sim) -> None:
